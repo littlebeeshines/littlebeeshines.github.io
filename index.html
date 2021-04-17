@@ -1,13 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Javascript</title>
-  <script src="script.js"></script>
+<meta charset="utf-8">
+  <title>Welcome to my web</title>
 </head>
 <body>
-  <h1>Click the button below to have some fun.</h1>
-  <p id="demo">Click the button to change the color and font style of this line.</p>
-  <button onclick="showTopic()">Press me</button>
-  <button onclick="sayHello()">Click me</button>
+  <h1>Click the button to start a game.</h1>
+<input type="button" onclick="questionFunction()" value="Click me" />
+  <p id="demo"></p >
+  <h2>Click the button to get a tip.</h2>
+<input type="button" onclick="remind()" value="Click me" />
+<h3>Click the button to get the right anwser.</h3>
+<input type="button" onclick="getAnswer()" value="Click me" /> <br>
+<br>
+<h4>In fact, the riddle comes from the movie Her.</h4>
+  <img src="https://image11.m1905.cn/uploadfile/2013/1205/20131205044103457005.jpg">
+  <br>
+  <a href="https://www.imdb.com/title/tt1798709/" target="_blank">If you wanna know more about this movie,you could click here.</a><br>
 </body>
+<script>
+function questionFunction()
+{
+   var question=prompt("Do you know what does a baby computer call his father?  Please write down your answer in the box below.","");
+ if (question!=""){
+   if (question=="Data"||question=="data"){
+  alert("bingo!");
+   x="Your answer " + question + " is right！congratulations！";
+       document.getElementById("demo").innerHTML=x;
+   }
+ else  if (question!=null && question!="Data/data"){
+  alert("Wrong answer！");
+  x="Your answer " + question + " is wrong.Think twice?";
+       document.getElementById("demo").innerHTML=x;
+   }
+ }
+ else alert("You should type your answer into the box.Do not play tricks.");
+ }
+ function remind(){
+  alert("tip:What is important for computers?");
+ }
+ function getAnswer(){
+  alert("answer:Data/data,because it sounds like dada.");
+ }
+</script>
 </html>
