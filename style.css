@@ -51,6 +51,18 @@ html, body{
   color: #f0f0f0;
 }
 
+footer{
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+
+.light{
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+
+}
+
 
 figure {
   position: relative;
