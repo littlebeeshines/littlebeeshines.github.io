@@ -1,6 +1,7 @@
 html, body{
   font-family: "Poppins", sans-serif;
   color: #3c3c3c;
+  font-size: 1.15em;
 }
 
 .carousel img{
@@ -28,6 +29,20 @@ html, body{
   border: 1px solid #c40053;
 }
 
+.btn-outline-se{
+  background-color: #fc3672;
+}
+
+.btn-outline-se:hover{
+  background-color: #c40053;
+  border: 1px solid #c40053;
+}
+
+.steam{
+  color: #ffffff;
+  font-family: Monaco;
+}
+
 .fun{
   width: 100%;
   margin-bottom: 2rem;
@@ -43,12 +58,39 @@ html, body{
 }
 
 .display-4{
-  font-family: Papyrus;
+  font-family: "Papyrus";
+  font-style: italic;
   color: #7d41dd;
+  font-weight: bold;
 }
 .display-2{
   font-family: Copperplate;
+  font-style: italic;
   color: #f0f0f0;
+}
+.display-3{
+  font-size: 2.5em;
+  font-family: "Papyrus";
+  font-style: italic;
+  color: #7d41dd;
+}
+.divcs{
+  color: #4a2300;
+  font-family: Copperplate;
+}
+
+.card-title{
+  color: #4a2300;
+  font-family: Copperplate;
+}
+
+.philosophy{
+  font-size: 1.15em;
+  font-style: italic;
+}
+
+.lead{
+  font-family: sans-serif;
 }
 
 footer{
@@ -60,7 +102,27 @@ footer{
 .light{
   border-top: 1px solid #d5d5d5;
   width: 75%;
+}
 
+.mr-3{
+  border-style: groove;
+  margin-left: 2rem;
+}
+
+.mt-0{
+  font-family: Monaco;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  margin-right: 80rem;
+}
+
+.form-inline{
+  margin-left: 2rem;
+}
+
+.with{
+  font-family: Copperplate;
+  color: #4a2300;
 }
 
 
@@ -72,7 +134,7 @@ figure {
 }
 
 #fixed {
-  background-image: url("img/IMG_4898.JPG");
+  background-image: url("img/IMG_5061.JPG");
   height: 600px;
   background-repeat: no-repeat;
   background-attachment: fixed;
